@@ -4,5 +4,8 @@
   "author": "Евгений Сажин <prosazhin@yandexru> (https://prosazhin.ru)",
   "main": "styles.scss",
   "repository": "git@github.com:prosazhin/prosazhin-base-styles.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.34.1"
+  }
 }

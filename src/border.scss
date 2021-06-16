@@ -1,0 +1,49 @@
+@mixin border_top {
+    box-shadow: inset 0px 1px 0px #CFD8DC;
+}
+
+@mixin border_right {
+    box-shadow: inset -1px 0px 0px #CFD8DC;
+}
+
+@mixin border_bottom {
+    box-shadow: inset 0px -1px 0px #CFD8DC;
+}
+
+@mixin border_left {
+    box-shadow: inset 1px 0px 0px #CFD8DC;
+}
+
+@mixin border_top_bottom {
+    box-shadow: inset 0px -1px 0px #CFD8DC, inset 0px 1px 0px #CFD8DC;
+}
+
+@mixin border_left_right {
+    box-shadow: inset 1px 0px 0px #CFD8DC, inset -1px 0px 0px #CFD8DC;
+}
+
+
+
+@mixin border_light_top {
+    box-shadow: inset 0px 1px 0px #ECEFF1;
+}
+
+@mixin border_light_right {
+    box-shadow: inset -1px 0px 0px #ECEFF1;
+}
+
+@mixin border_light_bottom {
+    box-shadow: inset 0px -1px 0px #ECEFF1;
+}
+
+@mixin border_light_left {
+    box-shadow: inset 1px 0px 0px #ECEFF1;
+}
+
+@mixin border_light_top_bottom {
+    box-shadow: inset 0px -1px 0px #ECEFF1, inset 0px 1px 0px #ECEFF1;
+}
+
+@mixin border_light_left_right {
+    box-shadow: inset 1px 0px 0px #ECEFF1, inset -1px 0px 0px #ECEFF1;
+}

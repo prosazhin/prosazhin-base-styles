@@ -7,4 +7,4 @@
 
 
 ## Подключается через import
-<code>@import 'prosazhin-base-styles/styles.scss';</code>
+<code>@import 'prosazhin-base-styles';</code>
